@@ -1,3 +1,37 @@
 baseURL = "http://www.quartercreekyachtclub.com/"
 languageCode = "en-us"
 title = "Quarter Creek Yacht Club"
+theme = "xmin"
+
+# disqusShortname = "bogus"
+# googleAnalytics = "bogus"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.rst$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+[params]
+    description = "A website built with Hugo and the xmin theme."
+    footer = "&copy; [Eric Gustafson](http://www.elfwerks.org/ericg) 2017 | Facebook | Twitter | other Social Media"
+
+## ########################################
+## Menus
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[[menu.main]]
+    name = "Credits"
+    url = "/credits/"
+    weight = 5
+
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
