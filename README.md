@@ -5,7 +5,7 @@ Statically generated using [Hugo](https://gohugo.io) and the [xmin](https://gith
 ----
 ## Cloning this repo
 
-+ `git clone --recursive -b hugo-source github.com:egustafson/qcyc-web`
++ `git clone --recursive github.com:egustafson/qcyc-web`
 + ~~`git clone --recursive -b hugo-source github.com:egustafson/qcyc-web`~~
 
 ## Publishing
