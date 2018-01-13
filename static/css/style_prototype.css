@@ -1,0 +1,25 @@
+/* left align the comments section in the footer */
+footer #comments { text-align: left; }
+
+body {
+  font-family: 'Open Sans', Times, serif;
+  text-align: center;
+  margin-top: 60px;
+  /* background-color: #888; */
+}
+
+h1.title-text {
+  font-family: 'IM Fell English SC', cursive;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+
+h1.elfin-text {
+  font-family: 'Uncial Antiqua';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 90px;
+  margin-bottom: 20px;
+}
